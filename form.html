@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <title>Login form</title>
+    <style>
+        body{
+            background-color:black;
+        }
+        .form_elements{
+            color: aliceblue;
+        }
+        .complete_form{
+            margin-top: 100px;
+            margin-left: 550px;
+            width: 300px;
+        }
+        #full_name{
+            width: 100%;
+        }
+        #email{
+            width: 100%;
+        }
+        #position{
+            width: 100%;
+        }
+        #password{
+            width: 100%;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="complete_form">
+       
+        
+        <form>
+            <fieldset>
+            <header class="form_elements"><b>Register today</b><br>Fill in the data below</header><br>
+            <div class="form_elements">
+                <label for="full_name"></label>
+                <input type="text" id="full_name" name="full_name" placeholder="Full Name">
+            </div><br>
+
+            
+            <div class="form_elements">
+                <label for="email"></label>
+                <input type="email" id="email" name="email" placeholder="Email"><br>
+                
+            </div><br>
+            <div class="form_elements">
+                <label for="position"></label>
+                <select name="position" id="position" >
+                    <option value="position">Position</option>
+                    <option value="intern">Intern</option>
+                    <option value="trainee">Traiee</option>
+                    <option value="employee">Employee</option>
+                    <option value="client">Client</option>
+                </select>
+            </div><br>
+            <div class="form_elements">
+                <label for="password"></label>
+                <input type="password" id="password" name="password" placeholder="Password">
+        
+            </div><br>
+            <div class="form_elements">
+                <label for="gender">Gender</label>
+                <input type="radio" name="male" id="male" value="male">
+                <label for="male">Male</label>
+                <input type="radio" name="female" id="female" value="female">
+                <label for="female">Female</label>
+                <input type="radio" name="secret" id="secret" value="secret">
+                <label for="secret">Secret</label>
+            </div><br>
+            
+            <div class="form_elements">
+                <input type="checkbox">I confirm that all data are correct
+            </div><br>
+            <div>
+                <input type="button" value="Register">
+            </div>
+
+
+
+            </fieldset>
+        </form>
+    </div>
+</body>
+
+</html>
